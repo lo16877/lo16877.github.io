@@ -4,22 +4,7 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
-  <script>
-  	var slideIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-  </script>
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -77,9 +62,9 @@ li a:hover {
 	</ul>
 </nav>
 <div class="w3-content w3-display-container">
-<img class="mySlides" src="http://www.telegraph.co.uk/content/dam/Travel/2017/July/Venice-II-travel-Getty-xlarge.jpg">
-<img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg/1200px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg">
-<img class="mySlides" src="https://static1.squarespace.com/static/53162615e4b08f2413caa7c2/t/560b0435e4b016db196d1f78/1443562583113/letna-prague-off-the-beaten-path">
+<img class="mySlides w3-animate-fading" src="http://www.telegraph.co.uk/content/dam/Travel/2017/July/Venice-II-travel-Getty-xlarge.jpg">
+<img class="mySlides w3-animate-fading" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg/1200px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg">
+<img class="mySlides w3-animate-fading" src="https://static1.squarespace.com/static/53162615e4b08f2413caa7c2/t/560b0435e4b016db196d1f78/1443562583113/letna-prague-off-the-beaten-path">
 
 <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
@@ -97,4 +82,20 @@ li a:hover {
 	<li>Blogs and posts to inspire your own journeys.</li>
 
 </body>
+<script>
+  	var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 8000); // Change image every 2 seconds
+}
+  </script>
 </html>
