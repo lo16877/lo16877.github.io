@@ -6,7 +6,7 @@ ul.navbar {
   background-color: #333;
 }
 
-li {
+ul.navbar li {
   float: left;
 }
 
@@ -46,4 +46,12 @@ img {
 
 iframe.form {
   padding: 50px, 0px, 0px, 0px;
+}
+
+.list-no-bullet {
+  list-style: none;
+}
+
+.benefits-list {
+  list-style-position: inside;
 }

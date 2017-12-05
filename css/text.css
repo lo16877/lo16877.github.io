@@ -1,0 +1,7 @@
+.centred > * {
+  text-align: center;
+}
+
+.heavy {
+  font-weight: bold;
+}
