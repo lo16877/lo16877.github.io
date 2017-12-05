@@ -3,7 +3,7 @@
 
 <head>
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
+	<script src="./javascript/carousel.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="./css/styles.css">
@@ -73,21 +73,5 @@
 	 width="760" height="500" frameborder="0" marginheight="50" marginwidth="50">Loading...</iframe>
 
 </body>
-<script>
-	var slideIndex = 0;
-	carousel();
-
-	function carousel() {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		for (i = 0; i < x.length; i++) {
-			x[i].style.display = "none";
-		}
-		slideIndex++;
-		if (slideIndex > x.length) { slideIndex = 1 }
-		x[slideIndex - 1].style.display = "block";
-		setTimeout(carousel, 8000); // Change image every 2 seconds
-	}
-</script>
 
 </html>
