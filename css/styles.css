@@ -10,10 +10,14 @@ ul.navbar li {
   float: left;
 }
 
+ul.centred_benefits_list li {
+  text-align: center;
+}
+
 li a {
   display: block;
   color: white;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
 }
