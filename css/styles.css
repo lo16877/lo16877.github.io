@@ -10,6 +10,14 @@ ul.navbar li {
   float: left;
 }
 
+ul.centred_benefits_list li {
+  text-align: center;
+}
+
+ul li {
+  text-align: left;
+}
+
 li a {
   display: block;
   color: white;
@@ -29,12 +37,19 @@ h1 {
   font-family: 'Tahoma';
 }
 
+h2 {
+  text-align: left;
+  padding: 0px 0px 0px 50px;
+font-weight: bold;
+}
+
 body {
   text-align: center;
   color: black;
   font-size: 25px;
   background-color: #f0ebe5;
   font-family: 'Avenir';
+  padding: 0px 50px 0px 50px;
 }
 
 #picture,
