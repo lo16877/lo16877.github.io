@@ -4,10 +4,11 @@ ul.navbar {
   padding: 20px, 0px, 20px, 0px;
   overflow: hidden;
   background-color: #333;
+  font-family: 'Avenir';
 }
-
 ul.navbar li {
   float: left;
+  font-family: 'Avenir';
 }
 
 ul.centred_benefits_list li {
@@ -36,14 +37,22 @@ li a:hover {
 h1 {
   padding: 20px 10px 30px 10px;
   font-family: 'Avenir';
+  background-color: #111;
+  color: white;
+  font-size: 100px;
 }
 
 h2 {
   text-align: left;
   padding: 0px 0px 0px 50px;
 font-weight: bold;
+background-color: #101;
+color: white;
 }
 
+h3 {
+  font-size:50px;
+}
 body {
   text-align: center;
   color: black;
