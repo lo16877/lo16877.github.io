@@ -29,6 +29,10 @@ h1 {
   font-family: 'Tahoma';
 }
 
+h2 {
+  text-align: left;
+}
+
 body {
   text-align: center;
   color: black;
