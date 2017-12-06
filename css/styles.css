@@ -1,4 +1,7 @@
-
+.w3-content.w3-display-container {
+  min-width: 980px;
+  max-width: initial;
+}
 ul.navbar {
   list-style-type: none;
   margin: 0;
